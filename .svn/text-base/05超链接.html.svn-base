@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<a target="_black" href="https://www.baidu.com/?tn=78000241_9_hao_pg">百度</a>
+		<a  href="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png">图片</a>
+		<a href="#" title="这是一个超链接">空连接</a>
+		
+	</body>
+</html>

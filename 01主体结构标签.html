@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			var ele=("abbr,article,aside,audio,canvas,datalist,"+
+			"details,figure,footer,header,hgroup,mark,menu,meter,"+
+			"nav,output,progress,section,time,video,main").split(",");
+			for(var i=0;i<ele.length;i++){
+				document.createElement(ele[i]);
+			}
+
+		</script>
+		<style type="text/css">
+			article,aside,canvas,datalist,footer,header,hgroup,nav,main{
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<section>
+			强调分块
+		</section>
+		<article>
+			强调独立完整的内容
+		</article>
+		<aside>附属信息，侧边栏，广告</aside>
+		<nav>
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+		</nav>
+		<header>头部</header>
+		<footer>尾部</footer>
+		<figure>
+			<figcaption></figcaption>
+			<img src="../CSS/img/a0.jpg" />
+		</figure>
+		<hgroup>
+			<h3></h3>
+			<h3></h3>
+			<h3></h3>
+		</hgroup>
+		<main>主要内容</main>
+	</body>
+</html>
